@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  react,
+  python,
+  webdev1,
 } from "../assets";
 
 export const navLinks = [
@@ -47,15 +50,15 @@ export const navLinks = [
 export const skills = [
   {
     title: "Web Developer",
-    icon: "src/assets/web.png",
+    icon: webdev1,
   },
   {
     title: "React Developer",
-    icon: "src/assets/react.png",
+    icon: react,
   },
   {
     title: "Python",
-    icon: "src/assets/python.png",
+    icon: python,
   },
 ];
 

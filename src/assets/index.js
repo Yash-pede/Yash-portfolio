@@ -30,7 +30,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import webdev1 from "./web.png"
+import react from "./react.png";
+import python from "./python.png"
+
 export {
+  webdev1,
+  react,
+  python,
+
   logo,
   backend,
   creator,
