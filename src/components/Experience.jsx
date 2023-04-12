@@ -12,7 +12,6 @@ import { experiences } from "../constants";
 
 const ExperianceComponent = ({
   title,
-  key,
   iconBg,
   icon,
   date,
@@ -41,7 +40,9 @@ const ExperianceComponent = ({
 
     <ul className="mt-5 list-disc mx-3">
       {points.map((point, index) => (
-        <li key={key} className="to-white p-1">{point}</li>
+        <li key={index} className="to-white p-1">
+          {point}
+        </li>
       ))}
     </ul>
   </VerticalTimelineElement>
@@ -65,7 +66,7 @@ const Experience = () => {
           whileInView="show"
           className={`${styles.sectionHeadText} hover:underline hover:underline-offset-8 hover:decoration-purple-800 transition-all duration-500`}
         >
-          Experiances
+          Experiences
         </motion.h2>
       </motion.div>
 

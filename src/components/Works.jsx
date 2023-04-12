@@ -8,7 +8,7 @@ import { fadeIn, slideIn, textVariants } from "../utils/motion";
 import { Tilt } from "react-tilt";
 
 const ProjectCard = ({
-  key,
+  projectId,
   index,
   name,
   description,
@@ -96,17 +96,13 @@ const Works = () => {
         </p>
         <p className={`mt-4`}>
           I thought my project was pretty impressive, until I showed it to my
-          grandma and she said, 'That's nice, dear.
+          grandma and she said, 'That's nice, dear.'
         </p>
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={`${project - { index }}`}
-            {...project}
-            index={index}
-          />
+        {projects.map((project) => (
+          <ProjectCard key={project.projectId} {...project} />
         ))}
       </div>
     </>

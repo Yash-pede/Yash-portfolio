@@ -112,10 +112,6 @@ export const technologies = [
     icon: javascript,
   },
   {
-    name: "Next Js",
-    icon: "src/assets/tech/nextjs.png",
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
