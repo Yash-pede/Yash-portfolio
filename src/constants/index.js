@@ -179,7 +179,7 @@ export const projects = [
   {
     name: "My Portfolio",
     description:
-      "Hi, I'm a tech enthusiast who loves to create awesome websites. This is my portfolio website where you can see some of my projects and skills. I'm not very good at writing about myself, so I asked Bing to do it for me. I hope you like it and don't judge me too harshly. 😅",
+      "a tech enthusiast who loves to create awesome websites. This is my portfolio website where you can see some of my projects and skills. I'm not very good at writing about myself, so I asked Bing to do it for me. I hope you like it and don't judge me too harshly. 😅",
     tags: [
       {
         name: "Talentless wonder",
@@ -191,7 +191,7 @@ export const projects = [
       },
     ],
     image: "src/assets/mee.png",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Yash-pede/Yash-portfolio.git",
     project_link: "",
   },
 ];
