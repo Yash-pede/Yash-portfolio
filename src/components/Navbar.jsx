@@ -5,6 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 import { styles } from "../style";
 import { menu, close } from "../assets";
 import { navLinks } from "../constants";
+import { sectionwrapper } from "../hoc";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -81,4 +82,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default sectionwrapper(Navbar,"");
