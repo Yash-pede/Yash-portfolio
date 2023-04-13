@@ -6,9 +6,8 @@ import { fadeIn, textVariants } from "../utils/motion";
 import { skills } from "../constants";
 import { sectionwrapper } from "../hoc";
 
-
 const Skillcard = ({ index, title, icon }) => (
-  <Tilt className="xs:w-[250px] w-full shadow-2xl shadow-purple-400/50 hover:shadow-lg rounded-2xl">
+  <Tilt className="xs:w-[250px] w-full shadow-2xl shadow-purple-400/50 hover:shadow-lg rounded-2xl transition-transform duration-500 ease-out">
     <motion.div
       variants={fadeIn("right", "spring", index * 0.75, 0.75)}
       className="w-full green-pink-gradient p-[2px] rounded-xl"
@@ -16,7 +15,7 @@ const Skillcard = ({ index, title, icon }) => (
       <div
         options={{
           max: 45,
-          scale: 1,
+          scale: 1.1,
           speed: 450,
         }}
         className="bg-tertiary rounded-2xl py-5 px-1 min-h-[280px] flex flex-col justify-evenly items-center"
@@ -68,4 +67,4 @@ const About = () => {
   );
 };
 
-export default sectionwrapper(About,"about");
+export default sectionwrapper(About, "about");

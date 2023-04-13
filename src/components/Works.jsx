@@ -18,12 +18,12 @@ const ProjectCard = ({
   project_link,
 }) => (
   <motion.div
-    variants={fadeIn("left", "spring", 0.5, 0.5 * index)}
+    variants={fadeIn("left", "spring", 1, 0.75 * index)}
     initial="hidden"
     whileInView="show"
   >
     <Tilt
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      className="bg-[#1c1b24] p-5 rounded-2xl sm:w-[360px] w-full transition-all duration-500 ease-out overflow-hidden hover:shadow-[-5px_10px_50px_-5px_#888888] hover:duration-700 hover:bg-[#1A202C]"
       options={{
         max: 30,
         speed: 450,
@@ -37,7 +37,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className=" rounded-2xl w-full h-full object-cover "
+            className="rounded-2xl w-full h-full object-cover "
           />
           <div className="absolute inset-0 flex justify-end m-2">
             <div className="flex justify-center items-center w-10 h-10 black-gradient rounded-full cursor-pointer">
