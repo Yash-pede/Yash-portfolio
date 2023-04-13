@@ -25,6 +25,12 @@ import {
   react,
   python,
   webdev1,
+  funny,
+  ai,
+  webdev,
+  jarvis,
+  amperfect,
+  mee
 } from "../assets";
 
 export const navLinks = [
@@ -65,7 +71,7 @@ export const experiences = [
   {
     title: "The Coaching Chronicles",
     company_name: "Pedecrastination Tutoring",
-    icon: "src/assets/funy.png",
+    icon: funny,
     iconBg: "#383E56",
     date: "March 2021 - september 2021",
     points: [
@@ -77,7 +83,7 @@ export const experiences = [
   {
     title: " From High School Nerd to AI Developer",
     company_name: "Artificial Idiocy",
-    icon: "src/assets/ai.png",
+    icon: ai,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
@@ -88,7 +94,7 @@ export const experiences = [
   {
     title: "Web Dev Journey",
     company_name: "React Rascals",
-    icon: "src/assets/webdev.png",
+    icon: webdev,
     iconBg: "#383E56",
     date: " The Era of Keyboard Warriors and Trolls",
     points: [
@@ -121,7 +127,7 @@ export const technologies = [
   },
   {
     name: "Python",
-    icon: "src/assets/python.png",
+    icon: python,
   },
   {
     name: "Three JS",
@@ -153,7 +159,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/jarvis.jpg",
+    image: jarvis,
     source_code_link: "https://github.com/Yash-pede/AI_YASH",
     project_link:
       "https://drive.google.com/file/d/1SJIxvg3gWLVW1rG1DGLJ15xr8dRGCXeh/view?usp=share_link",
@@ -172,7 +178,7 @@ export const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: "src/assets/amperfect.png",
+    image: amperfect,
     source_code_link: "https://github.com/Yash-pede/Amperfect",
     project_link: "https://www.amperfect.tech/",
   },
@@ -190,7 +196,7 @@ export const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/mee.png",
+    image: mee,
     source_code_link: "https://github.com/Yash-pede/Yash-portfolio.git",
     project_link: "",
   },

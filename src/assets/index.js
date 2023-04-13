@@ -32,11 +32,24 @@ import tripguide from "./tripguide.png";
 import webdev1 from "./web.png"
 import react from "./react.png";
 import python from "./python.png"
+import funny from "./funy.png"
+import ai from "./ai.png"
+import webdev from "./webdev.png"
+import jarvis from "./jarvis.jpg"
+import amperfect from "./amperfect.png"
+import mee from "./mee.png"
 
 export {
   webdev1,
   react,
   python,
+  funny,
+  ai,
+  webdev,
+  jarvis,
+  amperfect,
+  mee,
+
 
   logo,
   backend,
