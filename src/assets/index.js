@@ -39,7 +39,11 @@ import jarvis from "./jarvis.jpg"
 import amperfect from "./amperfect.png"
 import mee from "./mee.png"
 import yash from "./Yash.png"
-import menue from "./menu.png"
+import menue from "./menu.svg"
+import closee from "./close.svg"
+import sushil from "./sushil.png"
+import vikas from "./vikas.png"
+import aditi from "./aditi.png"
 
 export {
   webdev1,
@@ -53,6 +57,10 @@ export {
   mee,
   yash,
   menue,
+  closee,
+  sushil,
+  vikas,
+  aditi,
 
 
   logo,

@@ -31,7 +31,9 @@ import {
   jarvis,
   amperfect,
   mee,
-  yash
+  yash,
+  sushil,
+  aditi
 } from "../assets";
 
 export const navLinks = [
@@ -211,7 +213,7 @@ export const testimonials = [
     name: "Aditi Soni",
     designation: "CFO",
     company: "Acme Co",
-    image: "src/assets/aditi.png",
+    image: aditi,
   },
   {
     testimonial:
@@ -219,7 +221,7 @@ export const testimonials = [
     name: "Vikas singh",
     designation: "COO",
     company: "DEF Corp",
-    image: "src/assets/vikas.png",
+    image: vikas,
   },
   {
     testimonial:
@@ -227,6 +229,6 @@ export const testimonials = [
     name: "Sushil Yadav",
     designation: "CTO",
     company: "456 Enterprises",
-    image: "src/assets/sushil.png",
+    image: sushil,
   },
 ];

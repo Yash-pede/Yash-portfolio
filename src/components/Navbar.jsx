@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { slideIn } from "../utils/motion";
 import { Link, NavLink } from "react-router-dom";
 import { styles } from "../style";
-import { menu, close, menue } from "../assets";
+import { menu, close, menue, closee } from "../assets";
 import { navLinks } from "../constants";
 import { sectionwrapper } from "../hoc";
 
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         <div className="sm:hidden flex justify-end items-center ">
           <img
-            src={toggle ? "src/assets/close.svg" : menue}
+            src={toggle ? closee : menue}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => {
