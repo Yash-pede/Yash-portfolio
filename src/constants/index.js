@@ -33,7 +33,8 @@ import {
   mee,
   yash,
   sushil,
-  aditi
+  aditi,
+  vikas
 } from "../assets";
 
 export const navLinks = [
