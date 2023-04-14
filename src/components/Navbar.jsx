@@ -13,9 +13,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 bg-black bg-opacity-40 z-40`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto ">
         <Link
           to="/"
           onClick={() => {
@@ -43,7 +43,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex justify-end items-center flex-1">
+        <div className="sm:hidden flex justify-end items-center ">
           <img
             src={toggle ? "src/assets/close.svg" : "src/assets/menu.svg"}
             alt="menu"
@@ -55,7 +55,7 @@ const Navbar = () => {
           <div
             className={`${
               toggle ? "flex" : "hidden"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 my-2  z-10 rounded-xl `}
           >
             <ul className="list-none justify-end items-start flex-col space-y-4">
               {navLinks.map((link) => (
@@ -82,4 +82,4 @@ const Navbar = () => {
   );
 };
 
-export default sectionwrapper(Navbar,"");
+export default Navbar;

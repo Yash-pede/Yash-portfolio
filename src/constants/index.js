@@ -30,7 +30,8 @@ import {
   webdev,
   jarvis,
   amperfect,
-  mee
+  mee,
+  yash
 } from "../assets";
 
 export const navLinks = [
@@ -199,5 +200,33 @@ export const projects = [
     image: mee,
     source_code_link: "https://github.com/Yash-pede/Yash-portfolio.git",
     project_link: "",
+  },
+];
+
+
+export const testimonials = [
+  {
+    testimonial:
+      "🚀 My idea was just a twinkle in my until these 💥 patent wizards came along! They turned it into a masterpiece while keeping me 😂 the whole time. Working with them was like a 🎉 party every day - I didn't want it to end! If you want to make your dreams a reality with a side of fun, these are the 💪 folks to call!.",
+    name: "Aditi Soni",
+    designation: "CFO",
+    company: "Acme Co",
+    image: "src/assets/aditi.png",
+  },
+  {
+    testimonial:
+      "As a co-founder of Amperect, I can say with 💯 confidence that these guys are the 💣 when it comes to hardware and patents. Together, we've built some seriously 🤖 cool stuff and patented it like pros. If you're ready to take your ideas from 💭 to 🔨, this team is the 👑!",
+    name: "Vikas singh",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "src/assets/vikas.png",
+  },
+  {
+    testimonial:
+      "🙌 Amperect took my idea and turned it into a reality, all while keeping me in the loop every step of the way. I couldn't be happier with the final product, and the patent work they did is just 🔥. If you're looking for a team that truly cares about your vision, look no further!",
+    name: "Sushil Yadav",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: "src/assets/sushil.png",
   },
 ];

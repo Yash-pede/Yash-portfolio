@@ -38,6 +38,7 @@ import webdev from "./webdev.png"
 import jarvis from "./jarvis.jpg"
 import amperfect from "./amperfect.png"
 import mee from "./mee.png"
+import yash from "./Yash.png"
 
 export {
   webdev1,
@@ -49,6 +50,7 @@ export {
   jarvis,
   amperfect,
   mee,
+  yash,
 
 
   logo,
