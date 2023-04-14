@@ -45,7 +45,7 @@ const Navbar = () => {
 
         <div className="sm:hidden flex justify-end items-center ">
           <img
-            src={toggle ? "src/assets/close.svg" : "src/assets/menu.svg"}
+            src={toggle ? "src/assets/close.svg" : "src/assets/menu.png"}
             alt="menu"
             className="w-[28px] h-[28px] object-contain cursor-pointer"
             onClick={() => {
