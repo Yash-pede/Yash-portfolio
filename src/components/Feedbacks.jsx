@@ -6,11 +6,12 @@ import { testimonials } from "../constants";
 import { styles } from "../style";
 import { Tilt } from "react-tilt";
 
-const FeedbackCard = ({ testimonial, name, image ,key}) => (
-  <motion.div className=""
-  variants={slideIn("up","spring",0.7, key* 0.6)}
-  initial="hidden"
-  whileInView="show"
+const FeedbackCard = ({ testimonial, name, image, key }) => (
+  <motion.div
+    className=""
+    variants={slideIn("up", "spring", 0.7, key * 0.6)}
+    initial="hidden"
+    whileInView="show"
   >
     <Tilt
       options={{
@@ -18,7 +19,7 @@ const FeedbackCard = ({ testimonial, name, image ,key}) => (
         scale: 1.1,
         perspective: 1000,
       }}
-      className={`${styles.padding} bg-tertiary my-5 mx-3 rounded-2xl flex flex-wrap justify-center items-center w-[350px]`}
+      className={`${styles.padding} bg-tertiaryp-5 rounded-2xl sm:w-[360px] w-full transition-all duration-500 ease-out overflow-hidden  hover:duration-700 hover:bg-[#1A202C] `}
     >
       <div className="space-y-7 ">
         <div className="flex flex-row justify-start items-center md:space-x-7 sm:space-x-5 space-x-6 ">
@@ -51,9 +52,13 @@ const Feedbacks = () => {
           Testimonials.
         </h2>
 
-        <div className="flex flex-wrap justify-center items-center">
-          {testimonials.map((testimonial,index) => (
-            <FeedbackCard key={index} testimonial={testimonial.testimonial} {...testimonial} />
+        <div className="flex flex-wrap justify-center items-center overscroll-none">
+          {testimonials.map((testimonial, index) => (
+            <FeedbackCard
+              key={index}
+              testimonial={testimonial.testimonial}
+              {...testimonial}
+            />
           ))}
         </div>
       </motion.div>
