@@ -39,6 +39,7 @@ import jarvis from "./jarvis.jpg"
 import amperfect from "./amperfect.png"
 import mee from "./mee.png"
 import yash from "./Yash.png"
+import menue from "./menu.png"
 
 export {
   webdev1,
@@ -51,6 +52,7 @@ export {
   amperfect,
   mee,
   yash,
+  menue,
 
 
   logo,
