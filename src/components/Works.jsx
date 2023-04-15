@@ -23,7 +23,7 @@ const ProjectCard = ({
     whileInView="show"
   >
     <Tilt
-      className="bg-[#1c1b24] p-5 rounded-2xl sm:w-[360px] w-full transition-all duration-500 ease-out overflow-hidden  hover:duration-700 hover:bg-[#1A202C]"
+      className="bg-[#1c1b24] p-5 rounded-2xl sm:w-[360px] max-w-sm transition-all duration-500 ease-out overflow-hidden  hover:duration-700 hover:bg-[#1A202C]"
       options={{
         max: 30,
         speed: 450,

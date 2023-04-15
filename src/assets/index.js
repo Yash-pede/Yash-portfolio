@@ -45,7 +45,7 @@ import sushil from "./sushil.png";
 import vikas from "./vikas.png";
 import aditi from "./aditi.png";
 import linkedin from "./linked_in.png";
-import aditigif from "./aditi.gif";
+import aditigif from "./aditi.png";
 import instagram from "./instagram.png";
 
 export {
