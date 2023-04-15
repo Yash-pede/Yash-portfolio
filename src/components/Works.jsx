@@ -6,6 +6,7 @@ import { sectionwrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, slideIn, textVariants } from "../utils/motion";
 import { Tilt } from "react-tilt";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   projectId,
@@ -18,7 +19,7 @@ const ProjectCard = ({
   project_link,
 }) => (
   <motion.div
-    variants={fadeIn("left", "spring", 1, 0.75 * index)}
+    variants={fadeIn("up", "tween", 0.5, 0.6 * (index + 1))}
     initial="hidden"
     whileInView="show"
   >
@@ -32,34 +33,24 @@ const ProjectCard = ({
         reverse: true,
       }}
     >
-      <a href={project_link} className="cursor-pointer" target="_blank">
-        <div className="relative w-full">
-          <img
-            src={image}
-            alt={name}
-            className="rounded-2xl w-full h-full object-cover "
-          />
-          <div className="absolute inset-0 flex justify-end m-2">
-            <div className="flex justify-center items-center w-10 h-10 black-gradient rounded-full cursor-pointer">
-              <a
-                href={source_code_link}
-                className="flex justify-center items-center"
-                target="_blank"
-              >
-                <img src={github} alt={name} className="w-1/2 h-1/2 " />
+      <div className="inset-0 relative overflow-hidden">
+          <a href={project_link} target="_blank">
+            <img src={image} alt="project img" />
+          <div className="absolute inset-0 flex justify-end">
+            <div className=" black-gradient w-10 h-10 m-2 rounded-full">
+              <a href={source_code_link} target="_blank">
+                <img className="p-0.5" src={github} alt="Github" />
               </a>
             </div>
           </div>
-          <h3 className="mt-3 text-white font-bold text-xl">{name}</h3>
+          </a>
+        <h3 className="mt-3 text-white font-bold text-xl">{name}</h3>
 
-          <p className="text-secondary text-[14px] mt-2">{description}</p>
-          <div className="flex flex-wrap gap-7 justify-start items-center">
-            {tags.map((tag, index) => (
-              <p className={`${tag.color} cursor-pointer`}>#{tag.name}</p>
-            ))}
-          </div>
-        </div>
-      </a>
+        <p className="text-secondary text-[14px] mt-2">{description}</p>
+        {tags.map((tag, index) => (
+          <p className={`${tag.color}`}>#{tag.name}</p>
+        ))}
+      </div>
     </Tilt>
   </motion.div>
 );
@@ -101,8 +92,8 @@ const Works = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project) => (
-          <ProjectCard key={project.projectId} {...project} />
+        {projects.map((project, index) => (
+          <ProjectCard key={project.projectId} {...project} index={index} />
         ))}
       </div>
     </>

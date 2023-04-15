@@ -142,6 +142,7 @@ export const technologies = [
 ];
 
 export const projects = [
+  
   {
     name: "JARVIS",
     description:

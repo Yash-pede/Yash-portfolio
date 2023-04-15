@@ -17,7 +17,7 @@ const FeedbackCard = ({
 }) => (
   <motion.div
     className=""
-    variants={fadeIn("down", "spring", 0.7, key * 0.6)}
+    variants={fadeIn("down", "spring", 0.7, 0.6)}
     initial="hidden"
     whileInView="show"
   >
@@ -30,9 +30,13 @@ const FeedbackCard = ({
       className={`${styles.padding} bg-tertiaryp-5 rounded-2xl sm:w-[360px] w-full transition-all duration-500 ease-out overflow-hidden  hover:duration-700 hover:bg-[#1A202C]`}
     >
       <div className="space-y-7 ">
-          <p className="text-secondary text-[14px]">{testimonial}</p>
+        <p className="text-secondary text-[14px]">{testimonial}</p>
         <div className="flex flex-row justify-start items-center md:space-x-7 sm:space-x-5 space-x-6 ">
-          <p className={`${styles.sectionSubText} underline underline-offset-4`}>@{name}</p>
+          <p
+            className={`${styles.sectionSubText} underline underline-offset-4`}
+          >
+            @{name}
+          </p>
           <img
             src={image}
             alt="not found"
