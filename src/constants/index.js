@@ -34,7 +34,8 @@ import {
   yash,
   sushil,
   aditi,
-  vikas
+  vikas,
+  aditigif
 } from "../assets";
 
 export const navLinks = [
@@ -79,7 +80,7 @@ export const experiences = [
     iconBg: "#383E56",
     date: "March 2021 - september 2021",
     points: [
-      "Started coaching B.Tech bhiyas in my colony while still in Class 11. Because who needs free time or sanity, right?",
+      "Started coaching B.Tech seniors in my socity while still in Class 11. Because who needs free time or sanity, right?",
 
       "Turned my love for teaching into a full-fledged coaching gig. If you're not failing, you're not learning - and I'm here to make sure you do both.",
     ],
@@ -210,26 +211,32 @@ export const projects = [
 export const testimonials = [
   {
     testimonial:
-      "🚀 My idea was just a twinkle in my until these 💥 patent wizards came along! They turned it into a masterpiece while keeping me 😂 the whole time. Working with them was like a 🎉 party every day - I didn't want it to end! If you want to make your dreams a reality with a side of fun, these are the 💪 folks to call!.",
-    name: "Aditi Soni",
-    designation: "CFO",
-    company: "Acme Co",
-    image: aditi,
-  },
-  {
-    testimonial:
       "As a co-founder of Amperect, I can say with 💯 confidence that these guys are the 💣 when it comes to hardware and patents. Together, we've built some seriously 🤖 cool stuff and patented it like pros. If you're ready to take your ideas from 💭 to 🔨, this team is the 👑!",
-    name: "Vikas singh",
+    name: "Vikas_singh",
     designation: "COO",
     company: "DEF Corp",
     image: vikas,
+    linkedin_link: "",
+    instagram_link: "",
   },
   {
     testimonial:
       "🙌 Amperect took my idea and turned it into a reality, all while keeping me in the loop every step of the way. I couldn't be happier with the final product, and the patent work they did is just 🔥. If you're looking for a team that truly cares about your vision, look no further!",
-    name: "Sushil Yadav",
+    name: "Sushil_Yadav",
     designation: "CTO",
     company: "456 Enterprises",
     image: sushil,
+    linkedin_link: "https://www.linkedin.com/in/sushil-yadav-2a142b26a/",
+    instagram_link: "https://www.instagram.com/sushilyadav9841/",
+  },
+  {
+    testimonial:
+      "🚀 My idea was just a twinkle in my until these 💥 wizards came along! They turned it into a masterpiece while keeping me 😂 the whole time. Working with them was like a 🎉 party every day - I didn't want it to end! If you want to make your dreams a reality with a side of fun, these are the 💪 folks to call!.",
+    name: "Aditi_Soni",
+    designation: "CFO",
+    company: "Acme Co",
+    image: aditigif,
+    linkedin_link: "https://www.linkedin.com/in/aditi-soni-ba52b226a",
+    instagram_link: "https://www.instagram.com/aditiiiiiii.25/",
   },
 ];

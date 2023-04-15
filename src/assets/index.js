@@ -29,21 +29,24 @@ import tesla from "./company/tesla.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import webdev1 from "./web.png"
+import webdev1 from "./web.png";
 import react from "./react.png";
-import python from "./python.png"
-import funny from "./funy.png"
-import ai from "./ai.png"
-import webdev from "./webdev.png"
-import jarvis from "./jarvis.jpg"
-import amperfect from "./amperfect.png"
-import mee from "./mee.png"
-import yash from "./Yash.png"
-import menue from "./menu.svg"
-import closee from "./close.svg"
-import sushil from "./sushil.png"
-import vikas from "./vikas.png"
-import aditi from "./aditi.png"
+import python from "./python.png";
+import funny from "./funy.png";
+import ai from "./ai.png";
+import webdev from "./webdev.png";
+import jarvis from "./jarvis.jpg";
+import amperfect from "./amperfect.png";
+import mee from "./mee.png";
+import yash from "./Yash.png";
+import menue from "./menu.svg";
+import closee from "./close.svg";
+import sushil from "./sushil.png";
+import vikas from "./vikas.png";
+import aditi from "./aditi.png";
+import linkedin from "./linked_in.png";
+import aditigif from "./aditi.gif";
+import instagram from "./instagram.png";
 
 export {
   webdev1,
@@ -61,8 +64,15 @@ export {
   sushil,
   vikas,
   aditi,
+  aditigif,
+  linkedin,
+  instagram,
 
 
+
+
+
+  
   logo,
   backend,
   creator,
